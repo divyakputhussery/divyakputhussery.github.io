@@ -8,18 +8,13 @@ const portfolioItems = [
   },
   {
     title: "AI-powered Websites (Divlytics)",
-    description: "Client projects focused on automation and cloud hosting.",
+    description: "Client-focused web projects built using AI-assisted workflows and cloud-based deployment.",
     href: "/work/divlytics",
   },
   {
-    title: "Automation Workflows",
-    description: "API integrations and event-driven automation systems.",
+    title: "AI Automation & Intelligent Workflows",
+    description: "AI-driven workflows designed to automate real-world tasks, improve decision-making, and reduce manual effort.",
     href: "/work/automation-workflows",
-  },
-  {
-    title: "Experimental AI & Cloud Projects",
-    description: "Small prototypes and learning builds.",
-    href: "/work/experiments",
   },
 ];
 
