@@ -1,65 +1,81 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <main className="max-w-2xl mx-auto px-6 py-20 text-gray-900">
+      <h1 className="text-[24px] leading-[24px] font-medium text-black mb-5">
+        Divya K P
+      </h1>
+
+      <p className="text-[17px] leading-[26px] text-[#171717] font-normal mb-6">
+        I’m a software engineer building cloud and AI-powered systems, with over a decade of experience building web applications.
+      </p>
+
+      <p className="text-[17px] leading-[26px] text-[#171717] font-normal mb-6">
+        Previously, I worked as a Lead Software Engineer at{" "}
+        <a
+          href="https://www.sph.com.sg/"
+          target="_blank"
+          rel="noreferrer"
+          className="underline underline-offset-4"
+        >
+          SPH Media
+        </a>
+        , contributing to digital platforms for{" "}
+        <a
+          href="https://www.businesstimes.com.sg/"
+          target="_blank"
+          rel="noreferrer"
+          className="underline underline-offset-4"
+        >
+          The Business Times
+        </a>
+        . I worked across product, editorial, and marketing teams to design and deliver systems focused on audience engagement, data flow, and business outcomes.
+      </p>
+
+      <p className="text-[17px] leading-[26px] text-[#171717] font-normal mb-6">
+        I’m currently working independently through Divlytics in Sydney, where I build AI automation and web projects, including AI-powered websites, AWS-hosted solutions, and proof-of-concept systems using automation and AI tools.
+      </p>
+
+      <p className="text-[17px] leading-[26px] text-[#171717] font-normal">
+        You can explore my{" "}
+        <a href="/portfolio" className="underline underline-offset-4">
+          portfolio
+        </a>
+        , read my{" "}
+        <a
+          href="https://medium.com/@divlytics"
+          target="_blank"
+          rel="noreferrer"
+          className="underline underline-offset-4"
+        >
+          writing
+        </a>
+        , explore my{" "}
+        <a
+          href="https://github.com/divyakputhussery"
+          target="_blank"
+          rel="noreferrer"
+          className="underline underline-offset-4"
+        >
+          code
+        </a>
+        , watch my{" "}
+        <a
+          href="https://www.youtube.com/@Divlytics"
+          target="_blank"
+          rel="noreferrer"
+          className="underline underline-offset-4"
+        >
+          videos
+        </a>
+        , or{" "}
+        <a
+          href="mailto:divya@divlytics.com.au"
+          className="underline underline-offset-4"
+        >
+          get in touch
+        </a>
+        .
+      </p>
+    </main>
   );
 }
