@@ -16,6 +16,12 @@ const portfolioItems = [
     description: "AI-driven workflows designed to automate real-world tasks, improve decision-making, and reduce manual effort.",
     href: "/work/automation-workflows",
   },
+  {
+    title: "RAG Document Assistant",
+    description: "AI-powered document Q&A app using Retrieval-Augmented Generation (RAG).",
+    href: "/work/rag-document-assistant",
+  }
+  
 ];
 
 export default function PortfolioPage() {
