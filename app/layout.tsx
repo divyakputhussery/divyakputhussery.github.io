@@ -10,6 +10,11 @@ const stix = STIX_Two_Text({
 export const metadata: Metadata = {
   title: "Divya | AWS & AI Engineer",
   description: "Portfolio showcasing cloud, automation, and AI-powered systems",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
