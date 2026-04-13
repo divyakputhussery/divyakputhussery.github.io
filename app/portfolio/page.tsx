@@ -3,7 +3,7 @@ import Link from "next/link";
 const portfolioItems = [
   {
     title: "Serverless AI News Engine",
-    description: "Full system built on AWS with AI integration.",
+    description: "Built a serverless AI-driven content pipeline that collects, processes, and summarises articles using AWS Lambda, DynamoDB, and LLM integration. Designed for scalability and automation, the system demonstrates how AI workflows can be integrated into production-style backend services.",
     href: "/work/serverless-ai-news-engine",
   },
   {
@@ -18,7 +18,7 @@ const portfolioItems = [
   },
   {
     title: "RAG Document Assistant",
-    description: "AI-powered document Q&A app using Retrieval-Augmented Generation (RAG).",
+    description: "Developed a Retrieval-Augmented Generation (RAG) document assistant to enable contextual question answering over custom data, demonstrating practical integration of LLMs into backend systems.",
     href: "/work/rag-document-assistant",
   }
   
