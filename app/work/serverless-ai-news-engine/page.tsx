@@ -17,6 +17,31 @@ export default function ServerlessAINewsEnginePage() {
       <p className="text-[17px] leading-[26px] text-[#171717] mb-8">
         This project was built to automate the process of collecting AI news, filtering what matters, and generating a newsletter draft with minimal manual effort. The system runs on a scheduled, event-driven architecture using AWS services and produces a ready-to-review HTML output stored in S3 before delivery.
       </p>
+      
+      {/* Links */}
+      <h2 className="text-[18px] font-medium mb-3">Links</h2>
+      <ul className="list-disc pl-6 mb-6 text-[17px] leading-[26px] text-[#171717]">
+        <li>
+          <a
+            href="https://github.com/divyakputhussery/serverless-ai-news-engine"
+            target="_blank"
+            rel="noreferrer"
+            className="underline underline-offset-4"
+          >
+            GitHub Repository
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://medium.com/@divlytics/building-a-serverless-ai-news-engine-on-aws-with-bedrock-46dbfa8bd31a"
+            target="_blank"
+            rel="noreferrer"
+            className="underline underline-offset-4"
+          >
+            Medium Article
+          </a>
+        </li>
+      </ul>
 
       {/* Architecture */}
       <h2 className="text-[18px] font-medium mb-3">Architecture</h2>
@@ -48,31 +73,6 @@ export default function ServerlessAINewsEnginePage() {
         <li>Processed articles in batches to improve context and efficiency of LLM output.</li>
         <li>Stored generated output in S3 to preview results independently of the delivery platform.</li>
         <li>Designed the system to remain flexible and platform-agnostic for different newsletter providers.</li>
-      </ul>
-
-      {/* Links */}
-      <h2 className="text-[18px] font-medium mb-3">Links</h2>
-      <ul className="list-disc pl-6 text-[17px] leading-[26px] text-[#171717]">
-        <li>
-          <a
-            href="https://github.com/divyakputhussery/serverless-ai-news-engine"
-            target="_blank"
-            rel="noreferrer"
-            className="underline underline-offset-4"
-          >
-            GitHub Repository
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://medium.com/@divlytics/building-a-serverless-ai-news-engine-on-aws-with-bedrock-46dbfa8bd31a"
-            target="_blank"
-            rel="noreferrer"
-            className="underline underline-offset-4"
-          >
-            Medium Article
-          </a>
-        </li>
       </ul>
 
     </main>
