@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AWS + AI Portfolio Site
 
-## Getting Started
+Personal portfolio website built with Next.js to showcase AI, data, automation, and cloud projects.
 
-First, run the development server:
+## Highlights
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Recruiter-friendly portfolio listing with clear project summaries
+- Tech stack badges on each project card for quick scanning
+- Prominent project links on work pages (GitHub, demo, article)
+- Detailed case-study style project pages with architecture and decisions
+
+## Featured Projects
+
+### 1. RAG Document Assistant
+- PDF question-answering app using Retrieval-Augmented Generation
+- Stack: Python, Streamlit, LangChain, FAISS, OpenAI, Docker
+
+### 2. Job Market Insights Pipeline
+- End-to-end data pipeline from API ingestion to dashboard insights
+- Stack: Python, PostgreSQL, dbt, Streamlit, AWS S3
+
+### 3. Serverless AI News Engine
+- Serverless content pipeline for AI news summarization and newsletter generation
+- Stack: AWS Lambda, DynamoDB, Amazon Bedrock, EventBridge, S3
+
+### 4. AI Automation and Intelligent Workflows
+- Applied automation projects for lead qualification and conversational workflows
+- Stack: Make, Voiceflow, AI prompts, workflow integrations
+
+### 5. AI-powered Websites (Divlytics)
+- Client-focused web delivery with AI-assisted workflows and AWS hosting
+- Stack: Next.js, React, TypeScript, AWS (S3, CloudFront, Route 53)
+
+## Tech Stack
+
+- Next.js (App Router)
+- React + TypeScript
+- Tailwind CSS
+- ESLint
+
+## Project Structure
+
+```text
+app/
+	portfolio/page.tsx
+	work/
+		automation-workflows/page.tsx
+		divlytics/page.tsx
+		job-market-insights/page.tsx
+		rag-document-assistant/page.tsx
+		serverless-ai-news-engine/page.tsx
+public/images/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Run Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Install dependencies and start development server:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm install
+npm run dev
+```
 
-## Learn More
+Open http://localhost:3000
 
-To learn more about Next.js, take a look at the following resources:
+## Available Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `npm run dev` - Start local dev server
+- `npm run build` - Build production bundle
+- `npm run start` - Start production server
+- `npm run lint` - Run lint checks
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+This site can be deployed on Vercel or any platform that supports Next.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Divya K P
+
