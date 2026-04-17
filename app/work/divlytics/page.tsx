@@ -9,6 +9,34 @@ export default function DivlyticsPage() {
         Client-focused web projects built using AI-assisted workflows, practical automation, and cloud-based deployment.
       </p>
 
+      <h2 className="text-[18px] font-medium mb-3">Project Links</h2>
+      <div className="flex flex-wrap gap-3 mb-8">
+        <a
+          href="https://www.tinyhousekerala.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-block text-[15px] px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-100 transition"
+        >
+          Gangadharam Tiny House
+        </a>
+        <a
+          href="https://zyamadhari.in/"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-block text-[15px] px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-100 transition"
+        >
+          Zyamadhari
+        </a>
+        <a
+          href="https://mridulasmileyoga.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-block text-[15px] px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-100 transition"
+        >
+          Smile Yoga
+        </a>
+      </div>
+
       <h2 className="text-[18px] font-medium mb-3">Overview</h2>
       <p className="text-[17px] leading-[26px] text-[#171717] mb-8">
         Through Divlytics (my sole trader consultancy), I worked on building and delivering websites for real-world use cases, focusing on simplicity, performance, and usability. These projects allowed me to combine AI-assisted development, cloud hosting, and practical problem-solving while working directly with business requirements.
