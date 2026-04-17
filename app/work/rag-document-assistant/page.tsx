@@ -11,6 +11,35 @@ export default function RagDocumentAssistantPage() {
         AI-powered document Q&A app that uses Retrieval-Augmented Generation (RAG) to answer questions from uploaded PDFs.
       </p>
 
+      {/* Project links */}
+      <h2 className="text-[18px] font-medium mb-3">Project Links</h2>
+      <div className="flex flex-wrap gap-3 mb-8">
+        <a
+          href="https://github.com/divyakputhussery/rag-document-assistant"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-block text-[15px] px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-100 transition"
+        >
+          GitHub Repository
+        </a>
+        <a
+          href="https://rag-document-assistant-dysnwr4pxpnxsuv2pcpbpe.streamlit.app/"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-block text-[15px] px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-100 transition"
+        >
+          Live Demo
+        </a>
+        <a
+          href="https://medium.com/@divlytics/creating-a-custom-document-assistant-with-rag-fa52b29a03a3"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-block text-[15px] px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-100 transition"
+        >
+          Medium Article
+        </a>
+      </div>
+
       {/* Overview */}
       <h2 className="text-[18px] font-medium mb-3">Overview</h2>
       <p className="text-[17px] leading-[26px] text-[#171717] mb-8">
@@ -70,40 +99,6 @@ streamlit run app.py`}</code>
 docker run -p 8501:8501 rag-app`}</code>
       </pre>
 
-      {/* Links */}
-      <h2 className="text-[18px] font-medium mb-3">Links</h2>
-      <ul className="list-disc pl-6 text-[17px] leading-[26px] text-[#171717]">
-        <li>
-          <a
-            href="https://github.com/divyakputhussery/rag-document-assistant"
-            target="_blank"
-            rel="noreferrer"
-            className="underline underline-offset-4"
-          >
-            GitHub Repository
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://rag-document-assistant-dysnwr4pxpnxsuv2pcpbpe.streamlit.app/"
-            target="_blank"
-            rel="noreferrer"
-            className="underline underline-offset-4"
-          >
-            Live Demo
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://medium.com/@divlytics/creating-a-custom-document-assistant-with-rag-fa52b29a03a3"
-            target="_blank"
-            rel="noreferrer"
-            className="underline underline-offset-4"
-          >
-            Medium Article
-          </a>
-        </li>
-      </ul>
     </main>
   );
 }

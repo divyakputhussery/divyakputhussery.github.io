@@ -9,6 +9,34 @@ export default function AutomationWorkflowsPage() {
         AI-driven workflows designed to streamline business processes, integrate systems, and reduce manual effort through practical, real-world use cases.
       </p>
 
+      <h2 className="text-[18px] font-medium mb-3">Project Links</h2>
+      <div className="flex flex-wrap gap-3 mb-8">
+        <a
+          href="https://medium.com/@divlytics/how-to-qualify-high-value-leads-automatically-a05f9c5ebb5f"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-block text-[15px] px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-100 transition"
+        >
+          Lead Qualification Case Study
+        </a>
+        <a
+          href="https://www.youtube.com/watch?v=20sebSvPO8U&t=112s"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-block text-[15px] px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-100 transition"
+        >
+          Lead Qualification Demo
+        </a>
+        <a
+          href="https://medium.com/@divlytics/when-words-are-hard-to-find-building-wispello-with-voiceflow-make-and-a-little-christmas-magic-9e99fc88706a"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-block text-[15px] px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-100 transition"
+        >
+          Wispello Story
+        </a>
+      </div>
+
       <h2 className="text-[18px] font-medium mb-3">Overview</h2>
       <p className="text-[17px] leading-[26px] text-[#171717] mb-8">
           These projects were built as proof-of-concepts to explore how quickly meaningful workflows can be created using no-code automation platforms like Make and Voiceflow. The focus was not just on building, but on understanding how AI, logic, and integrations can come together to solve real problems with minimal overhead. This exploration helped me experiment with different approaches and identify where automation and AI can deliver practical value.
