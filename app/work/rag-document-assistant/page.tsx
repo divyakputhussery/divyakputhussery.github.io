@@ -23,14 +23,6 @@ export default function RagDocumentAssistantPage() {
           GitHub Repository
         </a>
         <a
-          href="https://rag-document-assistant-dysnwr4pxpnxsuv2pcpbpe.streamlit.app/"
-          target="_blank"
-          rel="noreferrer"
-          className="inline-block text-[15px] px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-100 transition"
-        >
-          Live Demo
-        </a>
-        <a
           href="https://medium.com/@divlytics/creating-a-custom-document-assistant-with-rag-fa52b29a03a3"
           target="_blank"
           rel="noreferrer"
