@@ -76,5 +76,5 @@ This site can be deployed on Vercel or any platform that supports Next.js.
 
 ## Author
 
-Divya K P
+Divya
 
