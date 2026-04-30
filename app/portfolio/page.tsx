@@ -28,7 +28,7 @@ const portfolioItems = [
   {
     title: "AI Automation & Intelligent Workflows",
     description: "AI-driven workflows designed to automate real-world tasks, improve decision-making, and reduce manual effort.",
-    techStack: ["Python", "LLMs", "Automation", "Cloud Services"],
+    techStack: ["Make", "Voiceflow", "LLMs", "Prompt Engineering", "Workflow Automation"],
     href: "/work/automation-workflows",
   }
   
